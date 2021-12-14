@@ -3,13 +3,14 @@
     margin: 0;
 }
 .container{
+    font-family: 'Source Sans 3', sans-serif;
     color: white;
     background: linear-gradient(145deg, #FF5F6D,#FFC371);
     width: 400px;
     margin: 50px auto;
     border-radius: 5px;
     font-size: 14px;
-    font-family: 'Source Sans 3', sans-serif;
+   
 }
 
 .search-bar{
@@ -27,6 +28,7 @@
     margin-right: 5px;
     position: absolute;
     left: 0;
+    cursor: pointer;
 }
 #search-input{
     border: 0;
@@ -57,6 +59,7 @@
 }
 .weather-state{
     font-size: 13px;
+    text-transform: capitalize;
 }
 
 .weather-icon{
@@ -81,6 +84,7 @@
     flex-direction: column;
     padding: 10px 20px;
     font-size: 13px;
+    text-align: center;
 
 }
 .additional-section .row{
